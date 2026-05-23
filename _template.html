@@ -230,15 +230,15 @@
                     <!-- Headshot Framework Container -->
                     <div class="w-full md:w-1/3 flex flex-row md:flex-col gap-4 shrink-0">
                         <div class="w-1/2 md:w-full aspect-[4/5] bg-stone-100 rounded-xl overflow-hidden border border-stone-200/40 relative">
-                            <div class="absolute inset-0 flex items-center justify-center text-stone-400 font-mono text-xs bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80');"></div>
-                            <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/60 to-transparent p-3 pt-8">
+                            <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://res.cloudinary.com/dhmzbmbgv/image/upload/dreamhomeutah/brand/darin-headshot');"></div>
+                            <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 to-transparent p-3 pt-8">
                                 <p class="text-xs font-semibold text-white leading-none">Darin Rhodes</p>
                                 <p class="text-[10px] text-stone-300 mt-1 leading-none">Principal Broker & Realtor</p>
                             </div>
                         </div>
                         <div class="w-1/2 md:w-full aspect-[4/5] bg-stone-100 rounded-xl overflow-hidden border border-stone-200/40 relative">
-                            <div class="absolute inset-0 flex items-center justify-center text-stone-400 font-mono text-xs bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80');"></div>
-                            <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/60 to-transparent p-3 pt-8">
+                            <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://res.cloudinary.com/dhmzbmbgv/image/upload/dreamhomeutah/brand/stacie-headshot');"></div>
+                            <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 to-transparent p-3 pt-8">
                                 <p class="text-xs font-semibold text-white leading-none">Stacie Rhodes</p>
                                 <p class="text-[10px] text-stone-300 mt-1 leading-none">Licensed Realtor</p>
                             </div>
@@ -281,22 +281,35 @@
 
     <!-- COMPLIANCE AND FOOTER STACK -->
     <footer class="bg-stone-900 text-stone-400 py-12 border-t border-stone-800">
-        <div class="max-w-7xl mx-auto px-6 lg:px-8 text-center md:text-left grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-            <div>
-                <p class="text-white font-serif text-lg font-medium">Rhodes Real Estate and Mortgage Team</p>
-                <p class="text-sm text-stone-500 mt-1">Strategic Real Estate & Mortgage Management Across the Wasatch Front.</p>
-                <p class="text-xs text-stone-600 mt-6">
-                    &copy; 2026 Rhodes Real Estate Team. All rights reserved. Equal Housing Lender. <br>
-                    NMLS #XXXXXX | Department of Real Estate License #XXXXXX
-                </p>
-            </div>
-            <div class="flex justify-center md:justify-end space-x-4 items-center">
-                <div class="w-12 h-12 bg-stone-800 rounded-full flex items-center justify-center border border-stone-700 text-stone-300 font-serif text-xl">R</div>
-                <div class="text-left text-xs">
-                    <p class="text-stone-300 font-medium">TruePartner Home Loans</p>
-                    <p class="text-stone-500">Corporate Identity Registered</p>
-                    <p class="text-stone-500">Rhodes Academy, Inc.</p>
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            
+            <!-- Top Footer: Branding + Logos -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center pb-8 border-b border-stone-800">
+                <div>
+                    <p class="text-white font-serif text-lg font-medium">Rhodes Real Estate and Mortgage Team</p>
+                    <p class="text-sm text-stone-500 mt-1">Strategic Real Estate & Mortgage Management Across the Wasatch Front.</p>
                 </div>
+                
+                <!-- Brand Logos Row -->
+                <div class="flex flex-wrap justify-start md:justify-end items-center gap-6">
+                    <img src="https://res.cloudinary.com/dhmzbmbgv/image/upload/dreamhomeutah/brand/rhodes-logo" alt="Rhodes Real Estate" class="h-10 w-auto object-contain" />
+                    <img src="https://res.cloudinary.com/dhmzbmbgv/image/upload/dreamhomeutah/brand/truepartner-logo" alt="TruePartner Home Loans" class="h-10 w-auto object-contain" />
+                    <img src="https://res.cloudinary.com/dhmzbmbgv/image/upload/dreamhomeutah/brand/equity-logo" alt="Equity" class="h-10 w-auto object-contain" />
+                    <img src="https://res.cloudinary.com/dhmzbmbgv/image/upload/dreamhomeutah/brand/equal-housing-lender" alt="Equal Housing Lender" class="h-10 w-auto object-contain" />
+                </div>
+            </div>
+
+            <!-- Bottom Footer: Compliance Text -->
+            <div class="pt-8 text-xs text-stone-500 space-y-2 leading-relaxed">
+                <p>
+                    <strong class="text-stone-300">TruePartner Home Loans</strong> NMLS #1770793 &nbsp;|&nbsp; <strong class="text-stone-300">Darin Rhodes</strong> NMLS #281677
+                </p>
+                <p>
+                    Rhodes Real Estate Team operates under Utah Department of Real Estate License #XXXXXX. Equal Housing Lender. We are committed to providing equal access to housing opportunities for all individuals regardless of race, color, religion, sex, handicap, familial status, or national origin.
+                </p>
+                <p class="text-stone-600 pt-2">
+                    &copy; 2026 Rhodes Real Estate Team and TruePartner Home Loans. All rights reserved. Information deemed reliable but not guaranteed. Pricing, rates, and market data subject to change without notice.
+                </p>
             </div>
         </div>
     </footer>

@@ -3,268 +3,283 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Living in Lehi, UT: An Unfiltered Lifestyle & Real Estate Guide | Rhodes Team</title>
+    <title>Living in Lehi, UT: A Local's Guide to Home + Loan | Rhodes Team</title>
     <meta name="description" content="An editorial, opinion-based analysis of the daily reality of living in Lehi. View accurate neighborhood stats, lifestyle insights, and live MLS listings.">
     
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700&family=Caveat:wght@400;700&display=swap" rel="stylesheet">
 
     <script type="application/ld+json">
-    {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the main appeal of living in Lehi, Utah?", "acceptedAnswer": {"@type": "Answer", "text": "Lehi is a dynamic city known as the heart of Utah's 'Silicon Slopes,' offering a vibrant tech job market, excellent schools, abundant recreational opportunities, and a strong sense of community. It balances rapid growth with family-friendly amenities and stunning natural beauty."}}, {"@type": "Question", "name": "What school district serves Lehi residents?", "acceptedAnswer": {"@type": "Answer", "text": "Lehi is part of the Alpine School District, which is one of the largest and most highly-regarded school districts in Utah. It features modern facilities, including Skyridge High School and Lehi High School, along with numerous elementary and middle schools."}}, {"@type": "Question", "name": "What are some popular attractions or things to do in Lehi?", "acceptedAnswer": {"@type": "Answer", "text": "Thanksgiving Point is a major draw, featuring museums like the Museum of Natural Curiosity, expansive gardens, and Farm Country. The Outlets at Traverse Mountain offer extensive shopping, and there are numerous parks, trails, and access to Utah Lake for outdoor activities."}}, {"@type": "Question", "name": "How is the commute from Lehi to major employment centers?", "acceptedAnswer": {"@type": "Answer", "text": "Lehi is strategically located along I-15, making commutes to both Salt Lake City (approx. 30-40 minutes) and Provo (approx. 15-20 minutes) relatively efficient. Many residents also work at the numerous tech companies within Lehi itself, minimizing commute times. The UTA FrontRunner commuter rail also provides a public transit option."}}, {"@type": "Question", "name": "What is the real estate market like in Lehi?", "acceptedAnswer": {"@type": "Answer", "text": "Lehi's real estate market is characterized by rapid growth, a strong presence of new construction, and competitive demand driven by its burgeoning tech industry. Median home prices reflect its desirability, making it an attractive yet often competitive market for buyers."}}]}
+    {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is Lehi, Utah best known for?", "acceptedAnswer": {"@type": "Answer", "text": "Lehi is most famous as the heart of \"Silicon Slopes,\" Utah's technology and innovation hub, home to major tech companies and rapid economic growth. It's also renowned for family-friendly amenities, particularly Thanksgiving Point."}}, {"@type": "Question", "name": "What is the job market like in Lehi?", "acceptedAnswer": {"@type": "Answer", "text": "The job market in Lehi is exceptionally strong, primarily driven by the booming tech sector. Companies like Adobe, Micron, and many startups offer abundant opportunities in software development, engineering, and various corporate roles."}}, {"@type": "Question", "name": "Is Lehi a good place for families?", "acceptedAnswer": {"@type": "Answer", "text": "Absolutely! Lehi is highly regarded as a family-friendly city with excellent schools, numerous parks, extensive recreational programs, and attractions like Thanksgiving Point, making it ideal for raising children."}}, {"@type": "Question", "name": "How is the commute from Lehi to Salt Lake City?", "acceptedAnswer": {"@type": "Answer", "text": "Commuting from Lehi to Salt Lake City typically takes 35-45 minutes via I-15, depending on traffic. The UTA FrontRunner commuter rail also provides a convenient alternative for accessing downtown SLC."}}, {"@type": "Question", "name": "What outdoor activities are available in Lehi?", "acceptedAnswer": {"@type": "Answer", "text": "Lehi offers a wealth of outdoor activities, including hiking and biking trails accessible from Traverse Mountain and Dry Creek Canyon, boating and fishing on nearby Utah Lake, and several community parks for sports and recreation."}}]}
     </script>
 
     <style>
         body { font-family: 'Inter', sans-serif; }
-        .font-display { font-family: 'Fraunces', serif; font-optical-sizing: auto; }
-        .text-shadow-bold { text-shadow: 2px 2px 0 rgba(0,0,0,0.1); }
-        @keyframes drift { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
-        .drift { animation: drift 6s ease-in-out infinite; }
+        .font-display { font-family: 'DM Serif Display', serif; }
+        .font-hand { font-family: 'Caveat', cursive; }
+        
+        .squiggle {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 12' preserveAspectRatio='none'%3E%3Cpath d='M0,8 Q25,0 50,8 T100,8' stroke='%23047857' stroke-width='3' fill='none'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: bottom;
+            background-size: 100% 0.4em;
+            padding-bottom: 0.2em;
+        }
     </style>
 </head>
-<body class="bg-[#fbf8f3] text-stone-900">
+<body class="bg-stone-50 text-slate-800">
 
-    <!-- HERO SECTION: Dramatic Editorial Splash -->
-    <header class="relative w-full overflow-hidden bg-stone-950">
-        <!-- Background image with overlay -->
+    <!-- HERO SECTION: Warm and Inviting -->
+    <header class="relative w-full overflow-hidden">
         <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://res.cloudinary.com/dhmzbmbgv/image/upload/dreamhomeutah/cities/lehi/hero');"></div>
-        <div class="absolute inset-0 bg-gradient-to-br from-stone-950/85 via-stone-950/70 to-amber-950/60"></div>
-        
-        <!-- Giant background city name (decorative) -->
-        <div class="absolute inset-0 flex items-center justify-center overflow-hidden pointer-events-none">
-            <span class="font-display text-[20vw] md:text-[15vw] font-black text-white/5 tracking-tighter uppercase select-none whitespace-nowrap">Lehi</span>
-        </div>
+        <div class="absolute inset-0 bg-gradient-to-b from-slate-950/45 via-slate-900/60 to-emerald-950/75"></div>
 
-        <div class="relative max-w-7xl mx-auto px-6 lg:px-12 py-24 md:py-32">
-            <!-- Top eyebrow with gold line -->
-            <div class="flex items-center gap-4 mb-8">
-                <div class="h-px w-12 bg-amber-400"></div>
-                <span class="text-amber-300 uppercase tracking-[0.3em] text-xs font-semibold">The Rhodes Field Guide</span>
-            </div>
-
-            <!-- Main editorial headline -->
-            <h1 class="font-display text-5xl md:text-7xl lg:text-8xl text-white font-light leading-[0.95] tracking-tight max-w-4xl">
-                Living in<br>
-                <span class="font-bold italic text-amber-300">Lehi</span><span class="text-amber-300">.</span><br>
-                <span class="text-stone-300 text-3xl md:text-5xl lg:text-6xl font-light italic">The Real Story.</span>
+        <div class="relative max-w-5xl mx-auto px-6 lg:px-12 py-24 md:py-32 text-center">
+            <p class="font-hand text-emerald-300 text-3xl md:text-4xl mb-4">welcome to</p>
+            
+            <h1 class="font-display text-6xl md:text-8xl lg:text-9xl text-white leading-[0.95] tracking-tight">
+                Lehi.
             </h1>
 
-            <!-- Subhead -->
-            <p class="text-stone-200 text-lg md:text-xl mt-10 max-w-2xl font-light leading-relaxed">
-                We don't just sell homes. We guide you home. <br>
-                <span class="text-amber-300 font-medium not-italic">Dream it. Finance it. Live it.</span>
+            <div class="flex justify-center my-8">
+                <svg width="120" height="20" viewBox="0 0 120 20" class="text-emerald-300">
+                    <path d="M5,10 Q20,2 35,10 T65,10 T95,10 T115,10" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+                </svg>
+            </div>
+
+            <p class="text-white text-xl md:text-2xl font-light max-w-2xl mx-auto leading-relaxed">
+                A local's guide to the <em class="text-emerald-200 font-normal">real</em> story of living here — schools, the lifestyle, the market, and the home you've been picturing.
             </p>
 
-            <!-- Bottom badge -->
-            <div class="mt-12 inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-5 py-2.5">
-                <span class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></span>
-                <span class="text-white text-sm font-medium">Expert Real Estate & Mortgage Guidance — All in One Trusted Team</span>
-            </div>
-        </div>
-
-        <!-- Bottom market stats strip -->
-        <div class="relative border-t border-white/10 bg-stone-950/50 backdrop-blur-sm">
-            <div class="max-w-7xl mx-auto px-6 lg:px-12 py-6 grid grid-cols-2 md:grid-cols-4 gap-6 text-white">
-                <div>
-                    <div class="text-amber-300 text-[10px] uppercase tracking-widest font-bold">Median Price</div>
-                    <div class="font-display text-2xl md:text-3xl font-light mt-1">$635,000</div>
-                </div>
-                <div class="md:border-l border-white/10 md:pl-6">
-                    <div class="text-amber-300 text-[10px] uppercase tracking-widest font-bold">Days on Market</div>
-                    <div class="font-display text-2xl md:text-3xl font-light mt-1">42</div>
-                </div>
-                <div class="md:border-l border-white/10 md:pl-6">
-                    <div class="text-amber-300 text-[10px] uppercase tracking-widest font-bold">Active Listings</div>
-                    <div class="font-display text-2xl md:text-3xl font-light mt-1">175</div>
-                </div>
-                <div class="md:border-l border-white/10 md:pl-6">
-                    <div class="text-amber-300 text-[10px] uppercase tracking-widest font-bold">School District</div>
-                    <div class="font-display text-2xl md:text-3xl font-light italic mt-1">Alpine SD</div>
-                </div>
+            <div class="mt-10 inline-flex items-center gap-2.5 bg-white/15 backdrop-blur-sm border border-white/30 rounded-full px-6 py-3">
+                <svg class="w-4 h-4 text-emerald-300" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <span class="text-white text-sm font-medium">Expert Real Estate + Mortgage — All in One Team</span>
             </div>
         </div>
     </header>
 
-    <!-- 12 THINGS — Bold Editorial Grid -->
-    <section class="max-w-7xl mx-auto px-6 lg:px-12 py-20 md:py-28">
-        <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-end mb-12">
-            <div class="md:col-span-8">
-                <span class="text-amber-700 uppercase tracking-[0.25em] text-xs font-bold">Issue No. 01 — The Field Guide</span>
-                <h2 class="font-display text-5xl md:text-6xl font-light tracking-tight text-stone-900 mt-3 leading-none">
-                    12 Things You<br>
-                    <span class="italic font-medium">Need to Know</span><br>
-                    <span class="text-stone-400">About Lehi.</span>
-                </h2>
+    <!-- STATS PULSE — Soft Cards -->
+    <section class="max-w-6xl mx-auto px-6 lg:px-12 -mt-20 relative z-10">
+        <div class="bg-white rounded-3xl shadow-2xl p-6 md:p-10 grid grid-cols-2 md:grid-cols-4 gap-6 border border-slate-100">
+            <div class="text-center">
+                <div class="w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                    <svg class="w-6 h-6 text-emerald-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+                </div>
+                <div class="text-slate-500 text-xs uppercase tracking-wider font-semibold">Median Price</div>
+                <div class="font-display text-2xl text-slate-900 mt-1">$695,000</div>
             </div>
-            <div class="md:col-span-4 md:text-right">
-                <p class="text-stone-600 text-base font-light leading-relaxed">A curated data profile for families and professionals looking to establish roots here.</p>
+            <div class="text-center">
+                <div class="w-12 h-12 bg-sky-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                    <svg class="w-6 h-6 text-sky-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                </div>
+                <div class="text-slate-500 text-xs uppercase tracking-wider font-semibold">Days Listed</div>
+                <div class="font-display text-2xl text-slate-900 mt-1">42</div>
             </div>
-        </div>
-
-        <!-- Gold divider -->
-        <div class="h-1 bg-gradient-to-r from-amber-700 via-amber-400 to-transparent mb-12"></div>
-
-        <!-- Facts container — high-contrast text -->
-        <div class="bg-white border-l-4 border-amber-600 p-8 md:p-12 rounded-r-2xl shadow-xl text-stone-900 text-base leading-relaxed">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 text-sm font-light text-stone-300"><div class="space-y-4"><h4 class="text-amber-400 uppercase tracking-widest text-[10px] font-bold">Transit & Proximity</h4><ul class="space-y-3"><li class="leading-relaxed"><strong class="text-white block font-medium">1. I-15 Access Hub</strong>Lehi sits strategically along I-15, providing direct access to both Salt Lake City (approx. 30 miles north) and Provo (approx. 15 miles south), making commutes efficient.</li><li class="leading-relaxed"><strong class="text-white block font-medium">2. FrontRunner Station</strong>The city is home to a UTA FrontRunner commuter rail station, offering a convenient alternative for travel between Ogden and Provo.</li><li class="leading-relaxed"><strong class="text-white block font-medium">3. Redwood Road Artery</strong>Redwood Road (SR-68) is a significant north-south arterial, connecting Lehi residents to Saratoga Springs, Eagle Mountain, and other western communities.</li><li class="leading-relaxed"><strong class="text-white block font-medium">4. Timpanogos Highway</strong>SR-92, known as Timpanogos Highway, links Lehi directly to Highland and Alpine, also serving as a gateway to American Fork Canyon.</li><li class="leading-relaxed"><strong class="text-white block font-medium">5. Silicon Slopes Core</strong>Lehi is considered the heart of "Silicon Slopes," housing major tech companies like Adobe, Microsoft, and Ancestry.com, significantly reducing commute times for local employees.</li><li class="leading-relaxed"><strong class="text-white block font-medium">6. Quick Airport Access</strong>Salt Lake City International Airport (SLC) is approximately a 35-40 minute drive, making national and international travel highly accessible.</li></ul></div><div class="space-y-4 mt-6 md:mt-0"><h4 class="text-amber-400 uppercase tracking-widest text-[10px] font-bold">Demographics & Community</h4><ul class="space-y-3"><li class="leading-relaxed"><strong class="text-white block font-medium">7. Rapid Population Growth</strong>Lehi has experienced explosive growth, with its population increasing from around 19,000 in 2000 to over 85,000 residents today, making it one of Utah's fastest-growing cities.</li><li class="leading-relaxed"><strong class="text-white block font-medium">8. Alpine School District</strong>Educational services are provided by the Alpine School District, one of the largest districts in Utah, known for its comprehensive curriculum and modern facilities.</li><li class="leading-relaxed"><strong class="text-white block font-medium">9. Thanksgiving Point Landmark</strong>Thanksgiving Point is a prominent 500-acre non-profit farm, garden, and museum complex that offers year-round educational and recreational opportunities.</li><li class="leading-relaxed"><strong class="text-white block font-medium">10. Pioneer Heritage</strong>Founded in 1850, Lehi is one of Utah's oldest settlements, originally named Dry Creek by its pioneer settlers before being renamed for Book of Mormon prophet Lehi.</li><li class="leading-relaxed"><strong class="text-white block font-medium">11. Young Demographic</strong>The city boasts a notably young population, with a median age often in the mid-20s, reflecting its appeal to young families and professionals.</li><li class="leading-relaxed"><strong class="text-white block font-medium">12. High Homeownership</strong>Lehi has a high rate of homeownership, indicating a stable and invested community with a strong emphasis on family-oriented living.</li></ul></div></div>
+            <div class="text-center">
+                <div class="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                    <svg class="w-6 h-6 text-teal-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+                </div>
+                <div class="text-slate-500 text-xs uppercase tracking-wider font-semibold">Active Listings</div>
+                <div class="font-display text-2xl text-slate-900 mt-1">210</div>
+            </div>
+            <div class="text-center">
+                <div class="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                    <svg class="w-6 h-6 text-slate-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg>
+                </div>
+                <div class="text-slate-500 text-xs uppercase tracking-wider font-semibold">School District</div>
+                <div class="font-display text-xl text-slate-900 mt-1 italic">Alpine SD</div>
+            </div>
         </div>
     </section>
 
-    <!-- WHAT WE LOVE — Magazine Pull Quote Style -->
-    <section class="bg-stone-900 text-white py-20 md:py-28 relative overflow-hidden">
-        <div class="absolute top-0 right-0 font-display text-[40vw] text-amber-500/5 leading-none -mt-20 select-none pointer-events-none">"</div>
-        
-        <div class="max-w-7xl mx-auto px-6 lg:px-12 relative">
-            <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
-                <div class="md:col-span-7">
-                    <span class="text-amber-400 uppercase tracking-[0.25em] text-xs font-bold">Why We're Here</span>
-                    <h2 class="font-display text-4xl md:text-5xl lg:text-6xl font-light text-white tracking-tight mt-4 leading-[1.05]">
-                        What We <span class="italic font-medium text-amber-300">Love</span> About Lehi.
+    <!-- 12 THINGS — Magazine Style with Strong Contrast -->
+    <section class="max-w-6xl mx-auto px-6 lg:px-12 py-20 md:py-28">
+        <div class="text-center mb-16">
+            <p class="font-hand text-emerald-700 text-3xl mb-2">the field guide</p>
+            <h2 class="font-display text-4xl md:text-5xl text-slate-900 leading-tight">
+                12 Things to Know <br>About <span class="squiggle">Lehi</span>
+            </h2>
+            <p class="text-slate-600 mt-6 max-w-xl mx-auto font-light text-lg">A curated profile for families and professionals looking to put down roots here.</p>
+        </div>
+
+        <!-- High contrast white card with strong text -->
+        <div class="bg-white rounded-3xl shadow-xl p-8 md:p-12 border-2 border-emerald-100 text-slate-900 text-base leading-relaxed">
+            <div class="[&_h4]:font-display [&_h4]:text-emerald-700 [&_h4]:text-xl [&_h4]:mb-4 [&_h4]:tracking-normal [&_strong]:text-slate-900 [&_strong]:font-display [&_strong]:text-lg [&_strong]:font-normal [&_li]:text-slate-700 [&_li]:font-light [&_li]:leading-relaxed">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 text-sm font-light text-stone-300"><div class="space-y-4"><h4 class="text-amber-400 uppercase tracking-widest text-[10px] font-bold">Transit & Proximity</h4><ul class="space-y-3"><li class="leading-relaxed"><strong class="text-white block font-medium">1. I-15 Access</strong>Lehi is strategically located directly on I-15, Utah's main north-south freeway, offering excellent connectivity to Salt Lake City and Provo.</li><li class="leading-relaxed"><strong class="text-white block font-medium">2. SLC Commute</strong>The average commute time from Lehi to downtown Salt Lake City is approximately 35-45 minutes, depending on traffic conditions.</li><li class="leading-relaxed"><strong class="text-white block font-medium">3. Provo Proximity</strong>Lehi is just about a 15-20 minute drive north of Provo, making it convenient for those commuting to Brigham Young University or Utah Valley University.</li><li class="leading-relaxed"><strong class="text-white block font-medium">4. FrontRunner Station</strong>Lehi hosts a UTA FrontRunner commuter rail station, providing an alternative transit option for travel along the Wasatch Front.</li><li class="leading-relaxed"><strong class="text-white block font-medium">5. Airport Access</strong>Salt Lake City International Airport (SLC) is approximately 35 miles north of Lehi, typically a 30-40 minute drive.</li><li class="leading-relaxed"><strong class="text-white block font-medium">6. Traverse Mountain Tunnel</strong>The Timpanogos Highway (SR-92) features a tunnel through Traverse Mountain, significantly improving access to Draper and Highland.</li></ul></div><div class="space-y-4 mt-6 md:mt-0"><h4 class="text-amber-400 uppercase tracking-widest text-[10px] font-bold">Demographics & Community</h4><ul class="space-y-3"><li class="leading-relaxed"><strong class="text-white block font-medium">7. Silicon Slopes Hub</strong>Lehi is widely recognized as the heart of "Silicon Slopes," Utah's burgeoning tech industry hub, home to companies like Adobe and Micron.</li><li class="leading-relaxed"><strong class="text-white block font-medium">8. Rapid Growth</strong>Lehi has been one of the fastest-growing cities in Utah and the nation over the past two decades, with its population surging past 85,000 residents.</li><li class="leading-relaxed"><strong class="text-white block font-medium">9. Thanksgiving Point</strong>This 500-acre non-profit provides year-round family entertainment, including museums, gardens, and a golf course, drawing visitors from across the state.</li><li class="leading-relaxed"><strong class="text-white block font-medium">10. Historic Main Street</strong>Despite rapid growth, Lehi maintains a charming historic Main Street area with older buildings and local businesses, contrasting its modern tech centers.</li><li class="leading-relaxed"><strong class="text-white block font-medium">11. Family-Friendly City</strong>With a median age around 25-30, Lehi is a remarkably young and family-oriented community, evidenced by its numerous parks and strong school system.</li><li class="leading-relaxed"><strong class="text-white block font-medium">12. Alpine School District</strong>Lehi falls within the Alpine School District, one of the largest school districts in Utah, known for its strong academic and athletic programs.</li></ul></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHAT WE LOVE — Cool Section -->
+    <section class="bg-gradient-to-br from-emerald-50 via-teal-50 to-sky-50 py-20 md:py-28">
+        <div class="max-w-6xl mx-auto px-6 lg:px-12">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+                <div class="md:col-span-6">
+                    <p class="font-hand text-emerald-700 text-3xl mb-2">our favorite part</p>
+                    <h2 class="font-display text-4xl md:text-5xl text-slate-900 leading-tight mb-6">
+                        What We <em class="text-emerald-700">Love</em><br>About Lehi.
                     </h2>
-                    <p class="text-stone-300 text-lg leading-relaxed font-light mt-8 max-w-xl">
-                        Lehi residents cherish the city's dynamic blend of cutting-edge innovation and welcoming community spirit. It's a place where thriving tech careers meet family-friendly living, offering abundant parks, excellent schools, and diverse dining. The constant growth means new amenities are always on the horizon, yet stunning mountain views and access to outdoor recreation remain a constant. The community often gathers for local events, fostering a strong sense of belonging in a modern, forward-thinking environment. Lehi truly offers the best of both worlds: economic opportunity and an unparalleled quality of life.
+                    <p class="text-slate-700 leading-relaxed text-lg font-light">
+                        Lehi is a dynamic city at the heart of Utah's "Silicon Slopes," offering an exciting blend of technological innovation and family-friendly living. Residents adore the vibrant job market, the abundance of modern amenities, and the constant development that brings new shopping, dining, and entertainment options. Despite its rapid growth, Lehi maintains a strong sense of community, with numerous parks, excellent schools, and quick access to outdoor adventures in the nearby mountains and Utah Lake. It’s a place where career opportunities meet an active, engaging lifestyle.
                     </p>
                 </div>
-                <div class="md:col-span-5 grid grid-cols-2 gap-4">
-                    <div class="aspect-[3/4] bg-cover bg-center rounded-2xl shadow-2xl drift" style="background-image: url('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=600&q=80');"></div>
-                    <div class="aspect-[3/4] bg-cover bg-center rounded-2xl shadow-2xl mt-8 drift" style="background-image: url('https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?auto=format&fit=crop&w=600&q=80'); animation-delay: 1.5s;"></div>
+                <div class="md:col-span-6">
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="aspect-[3/4] bg-cover bg-center rounded-2xl shadow-xl" style="background-image: url('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=600&q=80');"></div>
+                        <div class="aspect-[3/4] bg-cover bg-center rounded-2xl shadow-xl mt-8" style="background-image: url('https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?auto=format&fit=crop&w=600&q=80');"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- HOUSING MARKET WATCH — Data as Drama -->
-    <section class="max-w-7xl mx-auto px-6 lg:px-12 py-20 md:py-28">
-        <div class="text-center mb-16">
-            <span class="text-amber-700 uppercase tracking-[0.25em] text-xs font-bold">Live Market Intelligence</span>
-            <h2 class="font-display text-4xl md:text-5xl font-light tracking-tight text-stone-900 mt-3">
-                The <span class="italic font-medium">Lehi</span> Housing Pulse.
+    <!-- HOUSING PULSE -->
+    <section class="max-w-6xl mx-auto px-6 lg:px-12 py-20 md:py-28">
+        <div class="text-center mb-12">
+            <p class="font-hand text-emerald-700 text-3xl mb-2">live market</p>
+            <h2 class="font-display text-4xl md:text-5xl text-slate-900 leading-tight">
+                Lehi Housing <em>Pulse</em>
             </h2>
-            <div class="inline-flex items-center gap-2 mt-6 bg-emerald-50 border border-emerald-200 px-4 py-1.5 rounded-full">
-                <span class="w-1.5 h-1.5 bg-emerald-500 rounded-full animate-pulse"></span>
+            <div class="inline-flex items-center gap-2 mt-6 bg-emerald-100 border border-emerald-200 px-4 py-1.5 rounded-full">
+                <span class="w-1.5 h-1.5 bg-emerald-600 rounded-full animate-pulse"></span>
                 <span class="text-emerald-800 text-xs font-semibold">Updated Live</span>
             </div>
         </div>
 
-        <!-- Big stat blocks with editorial treatment -->
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-px bg-stone-200 rounded-2xl overflow-hidden shadow-xl">
-            <div class="bg-[#fbf8f3] p-8 text-center">
-                <div class="text-amber-700 text-[10px] uppercase tracking-widest font-bold">List Price</div>
-                <div class="font-display text-3xl md:text-4xl font-light text-stone-900 mt-3">$650,000</div>
-                <div class="text-stone-500 text-xs mt-2 italic">median</div>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+            <div class="bg-white rounded-2xl p-6 text-center shadow-md border border-slate-100">
+                <div class="text-slate-500 text-xs uppercase tracking-wider font-semibold">List Price</div>
+                <div class="font-display text-3xl text-slate-900 mt-2">$715,000</div>
+                <div class="text-slate-400 text-xs mt-1 italic">median</div>
             </div>
-            <div class="bg-[#fbf8f3] p-8 text-center">
-                <div class="text-amber-700 text-[10px] uppercase tracking-widest font-bold">Sold Price</div>
-                <div class="font-display text-3xl md:text-4xl font-light text-stone-900 mt-3">$635,000</div>
-                <div class="text-stone-500 text-xs mt-2 italic">median</div>
+            <div class="bg-white rounded-2xl p-6 text-center shadow-md border border-slate-100">
+                <div class="text-slate-500 text-xs uppercase tracking-wider font-semibold">Sold Price</div>
+                <div class="font-display text-3xl text-slate-900 mt-2">$695,000</div>
+                <div class="text-slate-400 text-xs mt-1 italic">median</div>
             </div>
-            <div class="bg-[#fbf8f3] p-8 text-center">
-                <div class="text-amber-700 text-[10px] uppercase tracking-widest font-bold">Days on Market</div>
-                <div class="font-display text-3xl md:text-4xl font-light text-stone-900 mt-3">42</div>
-                <div class="text-stone-500 text-xs mt-2 italic">avg</div>
+            <div class="bg-white rounded-2xl p-6 text-center shadow-md border border-slate-100">
+                <div class="text-slate-500 text-xs uppercase tracking-wider font-semibold">Days on Market</div>
+                <div class="font-display text-3xl text-slate-900 mt-2">42</div>
+                <div class="text-slate-400 text-xs mt-1 italic">avg</div>
             </div>
-            <div class="bg-[#fbf8f3] p-8 text-center">
-                <div class="text-amber-700 text-[10px] uppercase tracking-widest font-bold">Active Homes</div>
-                <div class="font-display text-3xl md:text-4xl font-light text-stone-900 mt-3">175</div>
-                <div class="text-stone-500 text-xs mt-2 italic">for sale</div>
+            <div class="bg-white rounded-2xl p-6 text-center shadow-md border border-slate-100">
+                <div class="text-slate-500 text-xs uppercase tracking-wider font-semibold">Active Homes</div>
+                <div class="font-display text-3xl text-slate-900 mt-2">210</div>
+                <div class="text-slate-400 text-xs mt-1 italic">for sale</div>
             </div>
         </div>
 
-        <!-- Broker Insight callout -->
-        <div class="mt-10 bg-amber-50 border-l-4 border-amber-600 p-8 rounded-r-xl">
+        <!-- Darin's Broker Insight -->
+        <div class="mt-10 bg-emerald-50 rounded-2xl p-6 md:p-8 border-2 border-emerald-200">
             <div class="flex items-start gap-4">
-                <div class="font-display text-amber-700 text-5xl font-light leading-none">"</div>
-                <div>
-                    <div class="text-amber-700 uppercase tracking-widest text-[10px] font-bold mb-2">Darin's Broker Insight</div>
-                    <p class="text-stone-800 leading-relaxed text-base">Lehi's real estate market is heavily influenced by new construction and the tech industry, often seeing competitive offers. Buyers should be prepared for homes, particularly newer builds, to reflect premium pricing due to high demand and rising construction costs. Understanding various loan programs, especially those tailored for higher income brackets or tech professionals, can be advantageous. With interest rates fluctuating, securing pre-approval early is crucial to navigate this fast-paced market and capitalize on potential financing opportunities.</p>
+                <div class="shrink-0 w-12 h-12 rounded-full overflow-hidden border-2 border-emerald-300">
+                    <img src="https://res.cloudinary.com/dhmzbmbgv/image/upload/dreamhomeutah/brand/darin-headshot" alt="Darin" class="w-full h-full object-cover" />
+                </div>
+                <div class="flex-1">
+                    <div class="font-hand text-emerald-800 text-2xl leading-none mb-1">a note from Darin —</div>
+                    <p class="text-slate-800 leading-relaxed text-base">The Lehi market is characterized by strong demand, fueled by its role as the economic engine of Silicon Slopes. New construction is prevalent, offering diverse housing options from townhomes to luxury single-family homes, though inventory remains tight. Buyers should be prepared for competitive offers, especially on well-priced properties. Financing here often sees buyers with strong tech sector incomes, and a pre-approval is crucial. Understanding the new build process and potential appreciation in this high-growth area is key for a successful purchase.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- EDITORIAL ESSAY -->
-    <section class="bg-[#f3ede2] py-20 md:py-28">
-        <div class="max-w-4xl mx-auto px-6 lg:px-12">
-            <span class="text-amber-700 uppercase tracking-[0.25em] text-xs font-bold">The Take</span>
-            <h2 class="font-display text-4xl md:text-5xl lg:text-6xl font-light tracking-tight text-stone-900 mt-3 leading-[1.05]">
-                Lehi: Utah's Tech Frontier with Heart
+    <section class="bg-slate-900 text-white py-20 md:py-28">
+        <div class="max-w-3xl mx-auto px-6 lg:px-12 text-center">
+            <p class="font-hand text-emerald-300 text-3xl mb-2">our take</p>
+            <h2 class="font-display text-4xl md:text-5xl lg:text-6xl text-white leading-tight">
+                Lehi: Where Innovation Fuels Family Life
             </h2>
-            <div class="h-1 w-24 bg-amber-600 mt-8 mb-8"></div>
-            <p class="text-stone-800 leading-relaxed text-lg md:text-xl font-light first-letter:font-display first-letter:text-7xl first-letter:font-bold first-letter:float-left first-letter:mr-3 first-letter:leading-none first-letter:text-amber-700">
-                Lehi distinguishes itself from other Utah County cities through its unparalleled embrace of the future, driven by the Silicon Slopes phenomenon. While Provo has its established university town charm and Spanish Fork offers a more rural feel, Lehi is a vibrant hub of innovation, rapid development, and youthful energy. It attracts a demographic eager for career advancement and modern amenities, shaping a unique culture focused on progress and convenience. This isn't your grandparent's Utah County; it's a dynamic, evolving landscape where new opportunities emerge daily, making it a pivotal player in the state's economic landscape.
+            <div class="flex justify-center my-8">
+                <svg width="120" height="20" viewBox="0 0 120 20" class="text-emerald-300">
+                    <path d="M5,10 Q20,2 35,10 T65,10 T95,10 T115,10" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+                </svg>
+            </div>
+            <p class="text-slate-200 leading-relaxed text-lg md:text-xl font-light">
+                Lehi stands apart in Utah County as the epicenter of the tech boom, giving it a distinctly modern and energetic vibe compared to its more established, often agricultural neighbors. While retaining Utah's core family values, Lehi boasts a younger, more transient population driven by tech careers, fostering a dynamic culture of innovation and growth. It's less about quaint downtowns and more about master-planned communities, cutting-edge corporate campuses, and a forward-thinking approach to urban development, offering a unique blend of high-tech opportunity and accessible outdoor recreation.
             </p>
         </div>
     </section>
 
-    <!-- A DAY IN THE LIFE -->
-    <section class="max-w-7xl mx-auto px-6 lg:px-12 py-20 md:py-28">
-        <div class="mb-12">
-            <span class="text-amber-700 uppercase tracking-[0.25em] text-xs font-bold">A Day in the Life</span>
-            <h2 class="font-display text-4xl md:text-5xl font-light tracking-tight text-stone-900 mt-3">
-                Sunrise to <span class="italic">Sundown</span> in Lehi.
+    <!-- DAY IN THE LIFE -->
+    <section class="max-w-6xl mx-auto px-6 lg:px-12 py-20 md:py-28">
+        <div class="text-center mb-12">
+            <p class="font-hand text-emerald-700 text-3xl mb-2">a typical day</p>
+            <h2 class="font-display text-4xl md:text-5xl text-slate-900 leading-tight">
+                Sunrise to <em>Sundown</em> in Lehi
             </h2>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
             <!-- Morning -->
-            <div class="group">
-                <div class="aspect-[4/5] bg-cover bg-center rounded-2xl shadow-lg mb-6 overflow-hidden relative" style="background-image: url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=600&q=80');">
-                    <div class="absolute top-4 left-4 bg-amber-400 text-stone-900 font-display text-xl font-bold px-3 py-1 rounded">AM</div>
+            <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-slate-100">
+                <div class="aspect-[5/4] bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=600&q=80');"></div>
+                <div class="p-6">
+                    <div class="inline-flex items-center gap-2 bg-sky-100 px-3 py-1 rounded-full mb-3">
+                        <span class="text-sky-700 text-xs font-bold uppercase tracking-wider">Morning</span>
+                    </div>
+                    <h4 class="font-display text-xl text-slate-900 mb-2">Active Start</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed font-light">Mornings in Lehi buzz with purposeful energy. Families navigate I-15 for commutes to tech campuses or drive along busy main roads for school drop-offs at places like Skyridge High. Many grab a quick coffee at local favorites like Black Rifle Coffee or Beans & Brews before diving into the day. The crisp mountain air often carries the promise of a productive day, with the majestic Wasatch Front providing a stunning backdrop to the awakening city.</p>
                 </div>
-                <h4 class="font-display text-2xl font-medium text-stone-900 mb-3">Morning: Active Start</h4>
-                <p class="text-stone-600 text-sm leading-relaxed font-light">A typical Lehi morning often begins with the glow of the sun hitting the Wasatch Front peaks. Families prepare for school, with students heading to one of Alpine SD's modern campuses. Commuters, many bound for nearby tech campuses in Silicon Slopes, navigate I-15 or local routes. Coffee shops like Black Rifle Coffee Company or Beans & Brew provide a quick caffeine fix, while others enjoy a quiet breakfast before tackling their day, often discussing the latest community news or weekend plans.</p>
             </div>
             <!-- Afternoon -->
-            <div class="group md:mt-12">
-                <div class="aspect-[4/5] bg-cover bg-center rounded-2xl shadow-lg mb-6 overflow-hidden relative" style="background-image: url('https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=600&q=80');">
-                    <div class="absolute top-4 left-4 bg-amber-400 text-stone-900 font-display text-xl font-bold px-3 py-1 rounded">12P</div>
+            <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-slate-100 md:mt-8">
+                <div class="aspect-[5/4] bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=600&q=80');"></div>
+                <div class="p-6">
+                    <div class="inline-flex items-center gap-2 bg-emerald-100 px-3 py-1 rounded-full mb-3">
+                        <span class="text-emerald-700 text-xs font-bold uppercase tracking-wider">Afternoon</span>
+                    </div>
+                    <h4 class="font-display text-xl text-slate-900 mb-2">Local Hubs</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed font-light">As the workday winds down, Lehi's parks, like Lehi Sports Park or Olympic Park, fill with kids' sports teams and families enjoying the open space. Shoppers flock to the Outlets at Traverse Mountain for retail therapy, while others run errands at the various shopping centers that dot the landscape. After-school activities are plentiful, from dance studios to tutoring centers, reflecting the city's commitment to youth development and recreation.</p>
                 </div>
-                <h4 class="font-display text-2xl font-medium text-stone-900 mb-3">Afternoon: Local Hubs</h4>
-                <p class="text-stone-600 text-sm leading-relaxed font-light">Afternoons in Lehi buzz with activity. Kids often head to one of the many community parks, like Ivory Ridge Park or VASA Park, for sports practices or playtime. Shoppers explore the Outlets at Traverse Mountain for retail therapy or grab essentials at local grocery stores. Many professionals enjoy lunch breaks at various eateries around their tech campuses, while others might fit in a quick workout at a local gym or enjoy a scenic walk on a neighborhood trail, soaking in the open space.</p>
             </div>
             <!-- Evening -->
-            <div class="group">
-                <div class="aspect-[4/5] bg-cover bg-center rounded-2xl shadow-lg mb-6 overflow-hidden relative" style="background-image: url('https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=600&q=80');">
-                    <div class="absolute top-4 left-4 bg-amber-400 text-stone-900 font-display text-xl font-bold px-3 py-1 rounded">PM</div>
+            <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-slate-100">
+                <div class="aspect-[5/4] bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=600&q=80');"></div>
+                <div class="p-6">
+                    <div class="inline-flex items-center gap-2 bg-slate-100 px-3 py-1 rounded-full mb-3">
+                        <span class="text-slate-700 text-xs font-bold uppercase tracking-wider">Evening</span>
+                    </div>
+                    <h4 class="font-display text-xl text-slate-900 mb-2">Family Time</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed font-light">Evenings in Lehi are typically family-focused. Dinner at home, perhaps with takeout from a local eatery, is common. Many families take advantage of community events at Thanksgiving Point or movie nights at the megaplex. Neighborhoods come alive with evening strolls, and friendly faces can be seen gathering on porches. The city offers a balanced pace, ensuring residents can unwind and connect after a busy day.</p>
                 </div>
-                <h4 class="font-display text-2xl font-medium text-stone-900 mb-3">Evening: Family & Community</h4>
-                <p class="text-stone-600 text-sm leading-relaxed font-light">As evening descends, Lehi homes fill with the warmth of family life. Dinner often involves cooking at home or enjoying a meal at a local restaurant, perhaps Slab Pizza for a casual night out. Many residents attend school events, community sports leagues, or church activities. The vibrant lights of Thanksgiving Point often draw families for a stroll or an evening show. Cooler temperatures bring a peaceful close to the day, with mountain views providing a serene backdrop.</p>
             </div>
         </div>
     </section>
 
     <!-- SCHOOLS, DINING, WEEKEND -->
-    <section class="bg-stone-900 text-white py-20 md:py-28">
-        <div class="max-w-7xl mx-auto px-6 lg:px-12">
-            <div class="mb-12">
-                <span class="text-amber-400 uppercase tracking-[0.25em] text-xs font-bold">The Local Pulse</span>
-                <h2 class="font-display text-4xl md:text-5xl font-light tracking-tight text-white mt-3">
-                    Schools, Dining & <span class="italic text-amber-300">Weekend Escapes.</span>
+    <section class="bg-gradient-to-br from-emerald-50 to-sky-50 py-20 md:py-28">
+        <div class="max-w-6xl mx-auto px-6 lg:px-12">
+            <div class="text-center mb-12">
+                <p class="font-hand text-emerald-700 text-3xl mb-2">the local pulse</p>
+                <h2 class="font-display text-4xl md:text-5xl text-slate-900 leading-tight">
+                    Schools, Dining & <em>Weekend Escapes</em>
                 </h2>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div class="bg-stone-800 rounded-2xl overflow-hidden border border-stone-700">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-slate-100">
                     <div class="aspect-[16/9] bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=800&q=80');"></div>
-                    <div class="p-8">
-                        <h4 class="font-display text-2xl text-amber-300 mb-3">The Education Standard</h4>
-                        <p class="text-stone-300 text-sm leading-relaxed font-light">Lehi falls under the highly-regarded Alpine School District, one of Utah's largest and most progressive. The city boasts state-of-the-art educational facilities, including prominent high schools like Skyridge High School and Lehi High School, along with numerous middle and elementary schools designed to support a rapidly growing population. Key arterial roads such as I-15, Redwood Road, and SR-92 (Timpanogos Highway) provide excellent connectivity, ensuring smooth commutes for residents throughout the valley and into neighboring cities. Public transit options, including UTA FrontRunner and bus services, further enhance accessibility, making Lehi a well-connected and infrastructurally robust community.</p>
+                    <div class="p-6">
+                        <h4 class="font-display text-xl text-slate-900 mb-2">The Education Standard</h4>
+                        <p class="text-slate-600 text-sm leading-relaxed font-light">Lehi is proudly served by the Alpine School District, one of Utah's largest and highest-performing districts. The city boasts a robust educational infrastructure, including modern high schools like Skyridge High School and Lehi High School, along with numerous middle and elementary schools such as Willowcreek Middle and Eaglecrest Elementary, known for their strong academic programs. Transportation infrastructure is dominated by I-15, which bisects the city, providing critical connectivity for commuters. Local roads are constantly being upgraded to manage the rapid population growth, ensuring residents have efficient access to schools, amenities, and employment centers.</p>
                     </div>
                 </div>
-                <div class="bg-stone-800 rounded-2xl overflow-hidden border border-stone-700">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-slate-100">
                     <div class="aspect-[16/9] bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80');"></div>
-                    <div class="p-8">
-                        <h4 class="font-display text-2xl text-amber-300 mb-3">Local Dining & Culture</h4>
-                        <p class="text-stone-300 text-sm leading-relaxed font-light">Lehi's dining culture is as dynamic as its growth, offering a diverse array of options from quick bites to sit-down experiences. For classic American fare and legendary shakes, JCW's The Burger Family is a local institution. Pizza lovers flock to Slab Pizza for their unique, rectangular slices and fresh ingredients. Craving something different? HallPass at The Point offers a vibrant food hall experience with multiple vendors. You'll also find popular chains, authentic Mexican cuisine, and Asian eateries spread throughout the city, reflecting the diverse palates of its burgeoning population. There’s always something new and delicious to discover, from casual family dinners to more upscale date nights.</p>
+                    <div class="p-6">
+                        <h4 class="font-display text-xl text-slate-900 mb-2">Local Dining & Culture</h4>
+                        <p class="text-slate-600 text-sm leading-relaxed font-light">Lehi's dining scene is a delicious reflection of its growth, offering a mix of casual eateries and emerging upscale options. For a unique experience, Strap Tank Brewery provides excellent craft beer and pub fare in a lively setting. Hearth on 25th offers a more refined, farm-to-table experience with a cozy atmosphere. Casual favorites include local pizza joints, various international cuisines like Roll with It for Japanese fusion, and quick bites found in the bustling shopping centers near Traverse Mountain. From family-friendly diners to trendy new spots, Lehi's culinary landscape is continually expanding.</p>
                     </div>
                 </div>
-                <div class="md:col-span-2 bg-stone-800 rounded-2xl overflow-hidden border border-stone-700">
+                <div class="md:col-span-2 bg-white rounded-3xl overflow-hidden shadow-lg border border-slate-100">
                     <div class="grid grid-cols-1 md:grid-cols-2">
                         <div class="aspect-[4/3] md:aspect-auto bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=800&q=80');"></div>
                         <div class="p-8 md:p-12 flex flex-col justify-center">
-                            <h4 class="font-display text-2xl text-amber-300 mb-3">Favorite Weekend Spots</h4>
-                            <p class="text-stone-300 text-sm leading-relaxed font-light">Weekends in Lehi are an adventure, with endless opportunities for recreation and relaxation. Thanksgiving Point is a major draw, featuring world-class attractions like the Museum of Natural Curiosity, Farm Country, the Butterfly Biosphere, and stunning themed gardens perfect for family outings. For shopping enthusiasts, the Outlets at Traverse Mountain offer a wide selection of retail brands. Outdoor lovers can explore nearby mountain trails for hiking and biking, or head to Utah Lake State Park for boating, fishing, and paddleboarding. Community parks frequently host local sports leagues and events, fostering a vibrant social scene. Whether it’s educational fun, retail therapy, or connecting with nature, Lehi offers a rich tapestry of weekend activities for all ages.</p>
+                            <h4 class="font-display text-2xl text-slate-900 mb-3">Favorite Weekend Spots</h4>
+                            <p class="text-slate-600 leading-relaxed font-light">Weekends in Lehi are packed with activities for all ages. Thanksgiving Point is a major draw, offering world-class attractions like the Museum of Natural Curiosity, Farm Country, Ashton Gardens, and the Butterfly Biosphere—perfect for a full day of exploration. For shopping enthusiasts, the Outlets at Traverse Mountain provide a wide array of retail options. Outdoor adventurers can hit the numerous hiking and biking trails accessible from Lehi, including those leading into Dry Creek Canyon, or enjoy water sports on nearby Utah Lake. Families also love Evermore Park, especially during seasonal events, for an immersive fantasy experience.</p>
                         </div>
                     </div>
                 </div>
@@ -273,69 +288,87 @@
     </section>
 
     <!-- IDX SEARCH -->
-    <section class="max-w-7xl mx-auto px-6 lg:px-12 py-20 md:py-28">
+    <section class="max-w-6xl mx-auto px-6 lg:px-12 py-20 md:py-28">
         <div class="text-center mb-10">
-            <span class="text-amber-700 uppercase tracking-[0.25em] text-xs font-bold">Browse the Market</span>
-            <h2 class="font-display text-4xl md:text-5xl font-light tracking-tight text-stone-900 mt-3">
-                Live <span class="italic">Lehi</span> Property Search.
+            <p class="font-hand text-emerald-700 text-3xl mb-2">browse listings</p>
+            <h2 class="font-display text-4xl md:text-5xl text-slate-900 leading-tight">
+                Live <em>Lehi</em> Property Search
             </h2>
         </div>
-        <div class="w-full h-96 bg-stone-100 rounded-2xl border-2 border-dashed border-stone-300 flex items-center justify-center shadow-inner">
-            <span class="text-stone-400 font-mono text-sm">[IDX Home Search Widget — Coming Soon]</span>
+        <div class="w-full h-96 bg-white rounded-3xl border-2 border-dashed border-emerald-200 flex items-center justify-center shadow-inner">
+            <span class="text-slate-400 font-mono text-sm">[IDX Home Search Widget — Coming Soon]</span>
         </div>
     </section>
 
-    <!-- MEET THE TEAM — BIO SECTION -->
-    <section class="bg-[#f3ede2] py-20 md:py-28">
-        <div class="max-w-7xl mx-auto px-6 lg:px-12">
+    <!-- MEET THE TEAM -->
+    <section class="bg-gradient-to-b from-emerald-50 to-sky-50 py-20 md:py-28">
+        <div class="max-w-6xl mx-auto px-6 lg:px-12">
             <div class="text-center mb-16">
-                <span class="text-amber-700 uppercase tracking-[0.25em] text-xs font-bold">Your Guides</span>
-                <h2 class="font-display text-4xl md:text-5xl lg:text-6xl font-light tracking-tight text-stone-900 mt-3 leading-[1.05]">
-                    Meet the <span class="italic font-medium">Rhodes Team.</span>
+                <p class="font-hand text-emerald-700 text-3xl mb-2">say hello</p>
+                <h2 class="font-display text-5xl md:text-6xl text-slate-900 leading-tight">
+                    Meet the <em>Rhodes Team</em>
                 </h2>
-                <p class="text-stone-600 max-w-2xl mx-auto font-light italic mt-6 text-lg">A husband-and-wife team handling both sides of your home purchase — search and financing — under one roof, with one phone call.</p>
+                <p class="text-slate-600 max-w-2xl mx-auto font-light text-lg mt-6">A husband-and-wife team handling <span class="text-emerald-700 font-medium">both sides</span> of your home purchase — search and financing — under one roof, with one phone call.</p>
             </div>
 
             <!-- DARIN -->
-            <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center mb-16 bg-white rounded-3xl p-8 md:p-12 shadow-lg">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center mb-12 bg-white rounded-3xl p-8 md:p-12 shadow-xl border border-slate-100">
                 <div class="md:col-span-4">
-                    <div class="aspect-[4/5] rounded-2xl overflow-hidden relative shadow-xl">
+                    <div class="aspect-[4/5] rounded-3xl overflow-hidden relative shadow-lg">
                         <img src="https://res.cloudinary.com/dhmzbmbgv/image/upload/dreamhomeutah/brand/darin-headshot" alt="Darin Rhodes" class="absolute inset-0 w-full h-full object-cover" />
-                        <div class="absolute top-4 left-4 bg-amber-400 text-stone-900 font-display text-xs font-bold uppercase tracking-widest px-3 py-1.5 rounded">The Lender</div>
+                    </div>
+                    <div class="text-center mt-4">
+                        <p class="font-hand text-emerald-700 text-2xl">that's me!</p>
                     </div>
                 </div>
                 <div class="md:col-span-8">
-                    <div class="text-amber-700 uppercase tracking-[0.25em] text-xs font-bold">Darin Rhodes</div>
-                    <h3 class="font-display text-3xl md:text-4xl font-light text-stone-900 mt-1">Principal Lending Manager <span class="italic">& Realtor®</span></h3>
-                    <div class="h-1 w-16 bg-amber-600 my-6"></div>
-                    <p class="text-stone-700 font-light leading-relaxed text-base mb-4">
-                        Darin brings something most real estate professionals simply can't — <strong class="text-stone-900">over 24 years of deep mortgage lending expertise</strong> combined with a sharp eye for real estate strategy. As the owner of TruePartner Home Loans, he's spent decades helping buyers navigate the financing side of one of life's biggest decisions.
+                    <div class="font-hand text-emerald-700 text-2xl">hi, I'm</div>
+                    <h3 class="font-display text-4xl md:text-5xl text-slate-900 mt-1">Darin Rhodes</h3>
+                    <p class="text-emerald-700 font-medium text-sm uppercase tracking-wider mt-2">Principal Lending Manager & Realtor®</p>
+                    <div class="my-6 flex">
+                        <svg width="80" height="14" viewBox="0 0 80 14" class="text-emerald-600">
+                            <path d="M2,7 Q15,1 28,7 T54,7 T78,7" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <p class="text-slate-700 font-light leading-relaxed text-base mb-4">
+                        I bring something most real estate professionals simply can't — <strong class="text-slate-900">over 24 years of deep mortgage lending expertise</strong> combined with a sharp eye for real estate strategy. As the owner of TruePartner Home Loans, I've spent decades helping buyers navigate the financing side of one of life's biggest decisions.
                     </p>
-                    <p class="text-stone-700 font-light leading-relaxed text-base mb-4">
-                        Where most agents hand you off to a lender and hope for the best, Darin <em>bridges both worlds</em>. He'll help you understand not just what you qualify for, but what makes strategic sense — in plain language, not jargon.
+                    <p class="text-slate-700 font-light leading-relaxed text-base mb-4">
+                        Where most agents hand you off to a lender and hope for the best, I <em>bridge both worlds</em>. I'll help you understand not just what you qualify for, but what makes strategic sense — in plain language, not jargon.
                     </p>
-                    <p class="font-display text-xl text-amber-700 italic">"One call. Both sides handled."</p>
+                    <div class="bg-emerald-50 border-l-4 border-emerald-600 p-4 rounded-r-xl mt-4">
+                        <p class="font-display text-xl text-emerald-900 italic">"One call. Both sides handled. That's the Rhodes difference."</p>
+                    </div>
                 </div>
             </div>
 
             <!-- STACIE -->
-            <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center bg-white rounded-3xl p-8 md:p-12 shadow-lg">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center bg-white rounded-3xl p-8 md:p-12 shadow-xl border border-slate-100">
                 <div class="md:col-span-8 md:order-1 order-2">
-                    <div class="text-amber-700 uppercase tracking-[0.25em] text-xs font-bold">Stacie Rhodes</div>
-                    <h3 class="font-display text-3xl md:text-4xl font-light text-stone-900 mt-1"><span class="italic">Realtor®</span></h3>
-                    <div class="h-1 w-16 bg-amber-600 my-6"></div>
-                    <p class="text-stone-700 font-light leading-relaxed text-base mb-4">
-                        Stacie understands that buying or selling a home is one of life's biggest transitions — and she doesn't take it lightly. Every transaction gets <strong class="text-stone-900">genuine care, deep professionalism, and a level of personal attention</strong> that's hard to find.
+                    <div class="font-hand text-emerald-700 text-2xl">and I'm</div>
+                    <h3 class="font-display text-4xl md:text-5xl text-slate-900 mt-1">Stacie Rhodes</h3>
+                    <p class="text-emerald-700 font-medium text-sm uppercase tracking-wider mt-2">Realtor®</p>
+                    <div class="my-6 flex">
+                        <svg width="80" height="14" viewBox="0 0 80 14" class="text-emerald-600">
+                            <path d="M2,7 Q15,1 28,7 T54,7 T78,7" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <p class="text-slate-700 font-light leading-relaxed text-base mb-4">
+                        I understand that buying or selling a home is one of life's biggest transitions — and I don't take it lightly. Every transaction gets <strong class="text-slate-900">genuine care, deep professionalism, and a level of personal attention</strong> that's hard to find.
                     </p>
-                    <p class="text-stone-700 font-light leading-relaxed text-base mb-4">
-                        With a love for photography and a sharp eye for presentation, Stacie knows exactly how to showcase a home in its best light. Her listings don't just hit the market; they make an impression. Her commitment goes beyond the closing table — relationships built on trust that last well after the keys change hands.
+                    <p class="text-slate-700 font-light leading-relaxed text-base mb-4">
+                        With a love for photography and a sharp eye for presentation, I know exactly how to showcase a home in its best light. My listings don't just hit the market; they make an impression. And my commitment goes beyond the closing table — relationships built on trust that last well after the keys change hands.
                     </p>
-                    <p class="font-display text-xl text-amber-700 italic">"Heart, hustle, and a trusted advisor for the long haul."</p>
+                    <div class="bg-emerald-50 border-l-4 border-emerald-600 p-4 rounded-r-xl mt-4">
+                        <p class="font-display text-xl text-emerald-900 italic">"Heart, hustle, and a trusted advisor for the long haul."</p>
+                    </div>
                 </div>
                 <div class="md:col-span-4 md:order-2 order-1">
-                    <div class="aspect-[4/5] rounded-2xl overflow-hidden relative shadow-xl">
+                    <div class="aspect-[4/5] rounded-3xl overflow-hidden relative shadow-lg">
                         <img src="https://res.cloudinary.com/dhmzbmbgv/image/upload/dreamhomeutah/brand/stacie-headshot" alt="Stacie Rhodes" class="absolute inset-0 w-full h-full object-cover" />
-                        <div class="absolute top-4 left-4 bg-amber-400 text-stone-900 font-display text-xs font-bold uppercase tracking-widest px-3 py-1.5 rounded">The Realtor</div>
+                    </div>
+                    <div class="text-center mt-4">
+                        <p class="font-hand text-emerald-700 text-2xl">that's me!</p>
                     </div>
                 </div>
             </div>
@@ -343,76 +376,83 @@
             <!-- Rhodes Team Logo -->
             <div class="flex flex-col items-center justify-center py-16 mt-12">
                 <img src="https://res.cloudinary.com/dhmzbmbgv/image/upload/dreamhomeutah/brand/rhodes-logo" alt="Rhodes Real Estate Team" class="h-28 md:h-36 w-auto object-contain mb-6" />
-                <div class="h-px w-24 bg-amber-600 mb-6"></div>
-                <p class="text-stone-700 font-display italic text-xl text-center max-w-md">Expert Real Estate & Mortgage Guidance — All in One Trusted Team</p>
+                <svg width="120" height="20" viewBox="0 0 120 20" class="text-emerald-600 mb-4">
+                    <path d="M5,10 Q20,2 35,10 T65,10 T95,10 T115,10" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+                </svg>
+                <p class="font-display italic text-2xl text-slate-700 text-center max-w-md">Expert Real Estate & Mortgage Guidance — All in One Trusted Team</p>
             </div>
         </div>
     </section>
 
-    <!-- GET STARTED — THE NEW CONVERSION SECTION -->
-    <section class="bg-stone-950 text-white py-20 md:py-28 relative overflow-hidden">
-        <!-- Decorative giant text -->
-        <div class="absolute -top-10 right-0 font-display text-[20vw] text-white/[0.03] leading-none select-none pointer-events-none">START</div>
+    <!-- GET STARTED — 3 STEPS + FORM -->
+    <section class="bg-slate-950 text-white py-20 md:py-28 relative overflow-hidden">
+        <div class="absolute top-20 right-20 w-64 h-64 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute bottom-20 left-20 w-64 h-64 bg-sky-500/10 rounded-full blur-3xl pointer-events-none"></div>
 
-        <div class="max-w-7xl mx-auto px-6 lg:px-12 relative">
+        <div class="max-w-6xl mx-auto px-6 lg:px-12 relative">
             <div class="text-center mb-16">
-                <span class="text-amber-400 uppercase tracking-[0.25em] text-xs font-bold">Get Started</span>
-                <h2 class="font-display text-4xl md:text-5xl lg:text-6xl font-light tracking-tight text-white mt-3 leading-[1.05]">
-                    Three Steps to <span class="italic text-amber-300">Welcome Home.</span>
+                <p class="font-hand text-emerald-300 text-4xl mb-2">ready when you are</p>
+                <h2 class="font-display text-5xl md:text-6xl text-white leading-tight">
+                    Three Steps to <em class="text-emerald-300">Home</em>
                 </h2>
-                <p class="text-stone-300 max-w-xl mx-auto font-light mt-6 text-lg">From your first call to your closing day — here's how it works.</p>
+                <p class="text-slate-300 max-w-xl mx-auto font-light mt-6 text-lg">From your first call to your closing day — here's how it works.</p>
             </div>
 
             <!-- 3-Step Track -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
-                <!-- Step 1 -->
-                <div class="bg-stone-900 border border-amber-600/40 rounded-2xl p-8 relative">
-                    <div class="absolute -top-6 left-8 bg-amber-400 text-stone-950 font-display text-3xl font-bold w-12 h-12 rounded-full flex items-center justify-center shadow-lg">1</div>
-                    <h3 class="font-display text-2xl text-amber-300 mt-4 mb-3">Get Preapproved</h3>
-                    <p class="text-stone-300 text-sm leading-relaxed font-light">Talk with Darin. Know your real budget. Skip the corporate call centers and get a strategic preapproval from a 25-year pro who actually picks up the phone.</p>
+                <!-- Step 1 - Highlighted -->
+                <div class="bg-white text-slate-900 rounded-3xl p-8 relative shadow-2xl">
+                    <div class="absolute -top-6 left-1/2 -translate-x-1/2 bg-emerald-500 text-white font-display text-3xl font-bold w-14 h-14 rounded-full flex items-center justify-center shadow-lg">1</div>
+                    <div class="text-center pt-4">
+                        <div class="text-3xl mb-4">📞</div>
+                        <h3 class="font-display text-2xl text-slate-900 mb-3">Get Preapproved</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed font-light">Talk with Darin. Know your real budget. Skip the corporate call centers.</p>
+                    </div>
                 </div>
                 <!-- Step 2 -->
-                <div class="bg-stone-900 border border-stone-700 rounded-2xl p-8 relative">
-                    <div class="absolute -top-6 left-8 bg-stone-200 text-stone-950 font-display text-3xl font-bold w-12 h-12 rounded-full flex items-center justify-center shadow-lg">2</div>
-                    <h3 class="font-display text-2xl text-stone-100 mt-4 mb-3">Search Listings</h3>
-                    <p class="text-stone-400 text-sm leading-relaxed font-light">Browse Lehi homes pre-filtered for your criteria. We'll send you matching listings the moment they hit the market — before the rest of the world sees them.</p>
+                <div class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-3xl p-8 relative">
+                    <div class="absolute -top-6 left-1/2 -translate-x-1/2 bg-white text-slate-950 font-display text-3xl font-bold w-14 h-14 rounded-full flex items-center justify-center shadow-lg">2</div>
+                    <div class="text-center pt-4">
+                        <div class="text-3xl mb-4">🔍</div>
+                        <h3 class="font-display text-2xl text-white mb-3">Search Homes</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed font-light">Browse Lehi listings tailored to your criteria. We'll alert you when new ones hit.</p>
+                    </div>
                 </div>
                 <!-- Step 3 -->
-                <div class="bg-stone-900 border border-stone-700 rounded-2xl p-8 relative">
-                    <div class="absolute -top-6 left-8 bg-stone-200 text-stone-950 font-display text-3xl font-bold w-12 h-12 rounded-full flex items-center justify-center shadow-lg">3</div>
-                    <h3 class="font-display text-2xl text-stone-100 mt-4 mb-3">Tour & Close</h3>
-                    <p class="text-stone-400 text-sm leading-relaxed font-light">Stacie handles showings, negotiations, and the close. Two pros, one team, one phone call — from "let's talk" to "welcome home."</p>
+                <div class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-3xl p-8 relative">
+                    <div class="absolute -top-6 left-1/2 -translate-x-1/2 bg-white text-slate-950 font-display text-3xl font-bold w-14 h-14 rounded-full flex items-center justify-center shadow-lg">3</div>
+                    <div class="text-center pt-4">
+                        <div class="text-3xl mb-4">🏡</div>
+                        <h3 class="font-display text-2xl text-white mb-3">Tour & Close</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed font-light">Stacie handles showings, negotiations, and the close. From "let's talk" to "welcome home."</p>
+                    </div>
                 </div>
             </div>
 
             <!-- Embedded Form -->
-            <div class="bg-white text-stone-900 rounded-3xl p-8 md:p-12 shadow-2xl max-w-3xl mx-auto">
+            <div class="bg-white text-slate-900 rounded-3xl p-8 md:p-12 shadow-2xl max-w-3xl mx-auto">
                 <div class="text-center mb-8">
-                    <div class="inline-flex items-center gap-2 bg-amber-100 border border-amber-300 px-4 py-1.5 rounded-full mb-4">
-                        <span class="w-1.5 h-1.5 bg-amber-600 rounded-full animate-pulse"></span>
-                        <span class="text-amber-800 text-xs font-bold uppercase tracking-widest">Start Here · Step 1</span>
-                    </div>
-                    <h3 class="font-display text-3xl md:text-4xl font-light text-stone-900">Get Preapproved with <span class="italic font-medium">Darin.</span></h3>
-                    <p class="text-stone-600 mt-3 max-w-md mx-auto font-light">Fill this out and Darin will personally reach out — usually same day.</p>
+                    <p class="font-hand text-emerald-700 text-3xl mb-2">start here</p>
+                    <h3 class="font-display text-3xl md:text-4xl text-slate-900">Get Preapproved with <em class="text-emerald-700">Darin</em></h3>
+                    <p class="text-slate-600 mt-3 max-w-md mx-auto font-light">Fill this out and Darin will personally reach out — usually same day.</p>
                 </div>
 
-                <!-- TruePartnerAI / GHL Embedded Form Drop Zone -->
-                <div class="w-full min-h-[400px] bg-stone-50 rounded-xl border border-dashed border-stone-300 flex items-center justify-center p-4">
-                    <span class="text-stone-400 text-center font-mono text-xs">[TruePartnerAI / GHL Embedded Form Script Goes Here]</span>
+                <div class="w-full min-h-[400px] bg-emerald-50 rounded-2xl border-2 border-dashed border-emerald-200 flex items-center justify-center p-4">
+                    <span class="text-slate-400 text-center font-mono text-xs">[TruePartnerAI / GHL Embedded Form Script Goes Here]</span>
                 </div>
 
-                <p class="text-stone-400 text-xs text-center mt-6 font-light">🔒 Your information stays private. No corporate marketing noise. No data sold. Promise.</p>
+                <p class="text-slate-500 text-xs text-center mt-6 font-light">🔒 Your information stays private. No corporate marketing noise. Promise.</p>
             </div>
         </div>
     </section>
 
     <!-- FOOTER -->
-    <footer class="bg-stone-950 text-stone-400 py-16 border-t border-stone-800">
+    <footer class="bg-slate-950 text-slate-400 py-16 border-t border-slate-800">
         <div class="max-w-7xl mx-auto px-6 lg:px-12">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center pb-8 border-b border-stone-800">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center pb-8 border-b border-slate-800">
                 <div>
-                    <p class="text-white font-display text-2xl font-light">Rhodes Real Estate Team</p>
-                    <p class="text-sm text-stone-500 mt-1 italic">Strategic Real Estate & Mortgage Management Across the Wasatch Front.</p>
+                    <p class="text-white font-display text-2xl">Rhodes Real Estate Team</p>
+                    <p class="text-sm text-slate-500 mt-1 italic">Strategic Real Estate & Mortgage Management Across the Wasatch Front.</p>
                 </div>
                 <div class="flex flex-wrap justify-start md:justify-end items-center gap-8">
                     <img src="https://res.cloudinary.com/dhmzbmbgv/image/upload/dreamhomeutah/brand/equity-logo" alt="Equity Real Estate" class="h-12 w-auto object-contain" />
@@ -420,10 +460,10 @@
                     <img src="https://res.cloudinary.com/dhmzbmbgv/image/upload/dreamhomeutah/brand/equal-housing-lender" alt="Equal Housing Lender" class="h-7 w-auto object-contain opacity-80" />
                 </div>
             </div>
-            <div class="pt-8 text-xs text-stone-500 space-y-2 leading-relaxed">
-                <p><strong class="text-stone-300">TruePartner Home Loans</strong> NMLS #1770793 &nbsp;|&nbsp; <strong class="text-stone-300">Darin Rhodes</strong> NMLS #281677</p>
+            <div class="pt-8 text-xs text-slate-500 space-y-2 leading-relaxed">
+                <p><strong class="text-slate-300">TruePartner Home Loans</strong> NMLS #1770793 &nbsp;|&nbsp; <strong class="text-slate-300">Darin Rhodes</strong> NMLS #281677</p>
                 <p>Rhodes Real Estate Team operates under Equity Real Estate. Equal Housing Lender. We are committed to providing equal access to housing opportunities for all individuals regardless of race, color, religion, sex, handicap, familial status, or national origin.</p>
-                <p class="text-stone-600 pt-2">&copy; 2026 Rhodes Real Estate Team and TruePartner Home Loans. All rights reserved. Information deemed reliable but not guaranteed.</p>
+                <p class="text-slate-600 pt-2">&copy; 2026 Rhodes Real Estate Team and TruePartner Home Loans. All rights reserved. Information deemed reliable but not guaranteed.</p>
             </div>
         </div>
     </footer>

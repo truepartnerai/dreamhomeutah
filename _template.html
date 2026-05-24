@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Living in {{City_Name}}, UT: A Local's Guide to Home + Loan | Rhodes Team</title>
+    <title>Living in {{City_Name}}, UT: An Insider's Guide to Home + Loan | Rhodes Team</title>
     <meta name="description" content="{{Meta_Description}}">
     
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -50,7 +50,7 @@
             </div>
 
             <p class="text-white text-xl md:text-2xl font-light max-w-2xl mx-auto leading-relaxed">
-                A local's guide to the <em class="text-sky-200 font-normal">real</em> story of living here — schools, the lifestyle, the market, and the home you've been picturing.
+                An <em class="text-sky-200 font-normal">Insider's</em> guide to the real story of living here — schools, the lifestyle, the market, and the home you've been picturing.
             </p>
 
             <div class="mt-10 inline-flex items-center gap-2.5 bg-white/15 backdrop-blur-sm border border-white/30 rounded-full px-6 py-3">
@@ -170,14 +170,14 @@
             </div>
         </div>
 
-        <!-- Darin's Broker Insight -->
+        <!-- Stacie's Realtor Insight (formerly Darin's Broker Insight) -->
         <div class="mt-10 bg-slate-50 rounded-2xl p-6 md:p-8 border-2 border-slate-200">
             <div class="flex items-start gap-4">
                 <div class="shrink-0 w-12 h-12 rounded-full overflow-hidden border-2 border-slate-300">
-                    <img src="https://res.cloudinary.com/dhmzbmbgv/image/upload/dreamhomeutah/brand/darin-headshot" alt="Darin" class="w-full h-full object-cover" />
+                    <img src="https://res.cloudinary.com/dhmzbmbgv/image/upload/dreamhomeutah/brand/stacie-headshot" alt="Stacie" class="w-full h-full object-cover" />
                 </div>
                 <div class="flex-1">
-                    <div class="font-hand text-slate-700 text-2xl leading-none mb-1">a note from Darin —</div>
+                    <div class="font-hand text-slate-700 text-2xl leading-none mb-1">a note from Stacie —</div>
                     <p class="text-slate-800 leading-relaxed text-base">{{Broker_Insight}}</p>
                 </div>
             </div>
@@ -212,7 +212,6 @@
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <!-- Morning -->
             <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-slate-100">
                 <div class="aspect-[5/4] bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=600&q=80');"></div>
                 <div class="p-6">
@@ -223,7 +222,6 @@
                     <p class="text-slate-600 text-sm leading-relaxed font-light">{{Day_Life_Morning}}</p>
                 </div>
             </div>
-            <!-- Afternoon -->
             <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-slate-100 md:mt-8">
                 <div class="aspect-[5/4] bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=600&q=80');"></div>
                 <div class="p-6">
@@ -234,7 +232,6 @@
                     <p class="text-slate-600 text-sm leading-relaxed font-light">{{Day_Life_Afternoon}}</p>
                 </div>
             </div>
-            <!-- Evening -->
             <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-slate-100">
                 <div class="aspect-[5/4] bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=600&q=80');"></div>
                 <div class="p-6">
@@ -286,20 +283,45 @@
         </div>
     </section>
 
-    <!-- IDX SEARCH -->
+    <!-- IDX SEARCH - Two-column layout to accommodate narrow IDX widget -->
     <section class="max-w-6xl mx-auto px-6 lg:px-12 py-20 md:py-28">
-        <div class="text-center mb-10">
-            <p class="font-hand text-slate-600 text-3xl mb-2">browse listings</p>
-            <h2 class="font-display text-4xl md:text-5xl text-slate-900 leading-tight">
-                Live <em>{{City_Name}}</em> Property Search
-            </h2>
-        </div>
-        <div class="w-full h-96 bg-white rounded-3xl border-2 border-dashed border-slate-200 flex items-center justify-center shadow-inner">
-            <span class="text-slate-400 font-mono text-sm">[IDX Home Search Widget — Coming Soon]</span>
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+            <!-- Left column: marketing copy -->
+            <div class="md:col-span-7">
+                <p class="font-hand text-slate-600 text-3xl mb-2">browse listings</p>
+                <h2 class="font-display text-4xl md:text-5xl text-slate-900 leading-tight mb-6">
+                    Search <em>New Listings</em>
+                </h2>
+                <p class="text-slate-700 text-lg font-light leading-relaxed mb-6">
+                    Browse the latest active listings across Utah in real time. New properties hit the market every day — find yours before everyone else does.
+                </p>
+                <ul class="space-y-3 text-slate-700 font-light">
+                    <li class="flex items-start gap-3">
+                        <svg class="w-5 h-5 text-sky-600 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                        <span>Filter by price, bedrooms, and area</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <svg class="w-5 h-5 text-sky-600 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                        <span>Save favorites and get instant alerts</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <svg class="w-5 h-5 text-sky-600 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                        <span>Real MLS data, updated continuously</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <svg class="w-5 h-5 text-sky-600 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                        <span>One-click contact when something catches your eye</span>
+                    </li>
+                </ul>
+            </div>
+            <!-- Right column: IDX widget centered -->
+            <div class="md:col-span-5 flex justify-center">
+                <iframe style="width:280px; height:680px; border-radius: 12px; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);" src="https://stacierhodes.equityrealestateusa.com/embedsmall.php" allowtransparency="true" frameBorder="0"></iframe>
+            </div>
         </div>
     </section>
 
-    <!-- MEET THE TEAM -->
+    <!-- MEET THE TEAM (Stacie first, then Darin) -->
     <section class="bg-gradient-to-b from-slate-50 to-sky-50 py-20 md:py-28">
         <div class="max-w-6xl mx-auto px-6 lg:px-12">
             <div class="text-center mb-16">
@@ -310,11 +332,11 @@
                 <p class="text-slate-600 max-w-2xl mx-auto font-light text-lg mt-6">A husband-and-wife team handling <span class="text-slate-800 font-medium">both sides</span> of your home purchase — search and financing — under one roof, with one phone call.</p>
             </div>
 
-            <!-- DARIN -->
+            <!-- STACIE - IMAGE LEFT, TEXT RIGHT -->
             <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center mb-12 bg-white rounded-3xl p-8 md:p-12 shadow-xl border border-slate-100">
                 <div class="md:col-span-4">
                     <div class="aspect-[4/5] rounded-3xl overflow-hidden relative shadow-lg">
-                        <img src="https://res.cloudinary.com/dhmzbmbgv/image/upload/dreamhomeutah/brand/darin-headshot" alt="Darin Rhodes" class="absolute inset-0 w-full h-full object-cover" />
+                        <img src="https://res.cloudinary.com/dhmzbmbgv/image/upload/dreamhomeutah/brand/stacie-headshot" alt="Stacie Rhodes" class="absolute inset-0 w-full h-full object-cover" />
                     </div>
                     <div class="text-center mt-4">
                         <p class="font-hand text-slate-600 text-2xl">that's me!</p>
@@ -322,29 +344,6 @@
                 </div>
                 <div class="md:col-span-8">
                     <div class="font-hand text-slate-600 text-2xl">hi, I'm</div>
-                    <h3 class="font-display text-4xl md:text-5xl text-slate-900 mt-1">Darin Rhodes</h3>
-                    <p class="text-slate-700 font-medium text-sm uppercase tracking-wider mt-2">Principal Lending Manager & Realtor®</p>
-                    <div class="my-6 flex">
-                        <svg width="80" height="14" viewBox="0 0 80 14" class="text-slate-500">
-                            <path d="M2,7 Q15,1 28,7 T54,7 T78,7" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-                        </svg>
-                    </div>
-                    <p class="text-slate-700 font-light leading-relaxed text-base mb-4">
-                        I bring something most real estate professionals simply can't — <strong class="text-slate-900">over 24 years of deep mortgage lending expertise</strong> combined with a sharp eye for real estate strategy. As the owner of TruePartner Home Loans, I've spent decades helping buyers navigate the financing side of one of life's biggest decisions.
-                    </p>
-                    <p class="text-slate-700 font-light leading-relaxed text-base mb-4">
-                        Where most agents hand you off to a lender and hope for the best, I <em>bridge both worlds</em>. I'll help you understand not just what you qualify for, but what makes strategic sense — in plain language, not jargon.
-                    </p>
-                    <div class="bg-slate-50 border-l-4 border-slate-700 p-4 rounded-r-xl mt-4">
-                        <p class="font-display text-xl text-slate-800 italic">"One call. Both sides handled. That's the Rhodes difference."</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- STACIE -->
-            <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center bg-white rounded-3xl p-8 md:p-12 shadow-xl border border-slate-100">
-                <div class="md:col-span-8 md:order-1 order-2">
-                    <div class="font-hand text-slate-600 text-2xl">and I'm</div>
                     <h3 class="font-display text-4xl md:text-5xl text-slate-900 mt-1">Stacie Rhodes</h3>
                     <p class="text-slate-700 font-medium text-sm uppercase tracking-wider mt-2">Realtor®</p>
                     <div class="my-6 flex">
@@ -362,9 +361,32 @@
                         <p class="font-display text-xl text-slate-800 italic">"Heart, hustle, and a trusted advisor for the long haul."</p>
                     </div>
                 </div>
+            </div>
+
+            <!-- DARIN - IMAGE RIGHT, TEXT LEFT -->
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center bg-white rounded-3xl p-8 md:p-12 shadow-xl border border-slate-100">
+                <div class="md:col-span-8 md:order-1 order-2">
+                    <div class="font-hand text-slate-600 text-2xl">and I'm</div>
+                    <h3 class="font-display text-4xl md:text-5xl text-slate-900 mt-1">Darin Rhodes</h3>
+                    <p class="text-slate-700 font-medium text-sm uppercase tracking-wider mt-2">Principal Lending Manager & Realtor®</p>
+                    <div class="my-6 flex">
+                        <svg width="80" height="14" viewBox="0 0 80 14" class="text-slate-500">
+                            <path d="M2,7 Q15,1 28,7 T54,7 T78,7" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <p class="text-slate-700 font-light leading-relaxed text-base mb-4">
+                        I bring something most real estate professionals simply can't — <strong class="text-slate-900">over 24 years of deep mortgage lending expertise</strong> combined with a sharp eye for real estate strategy. As the owner of TruePartner Home Loans, I've spent decades helping buyers navigate the financing side of one of life's biggest decisions.
+                    </p>
+                    <p class="text-slate-700 font-light leading-relaxed text-base mb-4">
+                        Where most agents hand you off to a lender and hope for the best, I <em>bridge both worlds</em>. I'll help you understand not just what you qualify for, but what makes strategic sense — in plain language, not jargon.
+                    </p>
+                    <div class="bg-slate-50 border-l-4 border-slate-700 p-4 rounded-r-xl mt-4">
+                        <p class="font-display text-xl text-slate-800 italic">"One call. Both sides handled. That's the Rhodes difference."</p>
+                    </div>
+                </div>
                 <div class="md:col-span-4 md:order-2 order-1">
                     <div class="aspect-[4/5] rounded-3xl overflow-hidden relative shadow-lg">
-                        <img src="https://res.cloudinary.com/dhmzbmbgv/image/upload/dreamhomeutah/brand/stacie-headshot" alt="Stacie Rhodes" class="absolute inset-0 w-full h-full object-cover" />
+                        <img src="https://res.cloudinary.com/dhmzbmbgv/image/upload/dreamhomeutah/brand/darin-headshot" alt="Darin Rhodes" class="absolute inset-0 w-full h-full object-cover" />
                     </div>
                     <div class="text-center mt-4">
                         <p class="font-hand text-slate-600 text-2xl">that's me!</p>
@@ -383,7 +405,7 @@
         </div>
     </section>
 
-    <!-- GET STARTED -->
+    <!-- GET STARTED - With embedded GHL Contact Form -->
     <section class="bg-slate-950 text-white py-20 md:py-28 relative overflow-hidden">
         <div class="absolute top-20 right-20 w-64 h-64 bg-sky-500/10 rounded-full blur-3xl pointer-events-none"></div>
         <div class="absolute bottom-20 left-20 w-64 h-64 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none"></div>
@@ -399,7 +421,6 @@
 
             <!-- 3-Step Track -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
-                <!-- Step 1 - Highlighted -->
                 <div class="bg-white text-slate-900 rounded-3xl p-8 relative shadow-2xl">
                     <div class="absolute -top-6 left-1/2 -translate-x-1/2 bg-sky-500 text-white font-display text-3xl font-bold w-14 h-14 rounded-full flex items-center justify-center shadow-lg">1</div>
                     <div class="text-center pt-4">
@@ -408,7 +429,6 @@
                         <p class="text-slate-600 text-sm leading-relaxed font-light">Talk with Darin. Know your real budget. Skip the corporate call centers.</p>
                     </div>
                 </div>
-                <!-- Step 2 -->
                 <div class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-3xl p-8 relative">
                     <div class="absolute -top-6 left-1/2 -translate-x-1/2 bg-white text-slate-950 font-display text-3xl font-bold w-14 h-14 rounded-full flex items-center justify-center shadow-lg">2</div>
                     <div class="text-center pt-4">
@@ -417,7 +437,6 @@
                         <p class="text-slate-300 text-sm leading-relaxed font-light">Browse {{City_Name}} listings tailored to your criteria. We'll alert you when new ones hit.</p>
                     </div>
                 </div>
-                <!-- Step 3 -->
                 <div class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-3xl p-8 relative">
                     <div class="absolute -top-6 left-1/2 -translate-x-1/2 bg-white text-slate-950 font-display text-3xl font-bold w-14 h-14 rounded-full flex items-center justify-center shadow-lg">3</div>
                     <div class="text-center pt-4">
@@ -428,17 +447,33 @@
                 </div>
             </div>
 
-            <!-- Embedded Form -->
+            <!-- Embedded GHL Contact Form -->
             <div class="bg-white text-slate-900 rounded-3xl p-8 md:p-12 shadow-2xl max-w-3xl mx-auto">
                 <div class="text-center mb-8">
-                    <p class="font-hand text-slate-600 text-3xl mb-2">start here</p>
-                    <h3 class="font-display text-3xl md:text-4xl text-slate-900">Get Preapproved with <em class="text-slate-700">Darin</em></h3>
-                    <p class="text-slate-600 mt-3 max-w-md mx-auto font-light">Fill this out and Darin will personally reach out — usually same day.</p>
+                    <p class="font-hand text-slate-600 text-3xl mb-2">let's talk</p>
+                    <h3 class="font-display text-3xl md:text-4xl text-slate-900">Contact <em class="text-slate-700">Us</em></h3>
+                    <p class="text-slate-600 mt-3 max-w-md mx-auto font-light">Have a question or ready to start the conversation? Fill this out and we'll reach out personally — usually same day.</p>
                 </div>
 
-                <div class="w-full min-h-[400px] bg-slate-50 rounded-2xl border-2 border-dashed border-slate-200 flex items-center justify-center p-4">
-                    <span class="text-slate-400 text-center font-mono text-xs">[TruePartnerAI / GHL Embedded Form Script Goes Here]</span>
-                </div>
+                <!-- GHL Embedded Contact Form -->
+                <iframe
+                    src="https://api.leadconnectorhq.com/widget/form/M6Lp3X1YE2Yjh74wnD9b"
+                    style="width:100%;min-height:660px;border:none;border-radius:7px"
+                    id="inline-M6Lp3X1YE2Yjh74wnD9b" 
+                    data-layout="{'id':'INLINE'}"
+                    data-trigger-type="alwaysShow"
+                    data-trigger-value=""
+                    data-activation-type="alwaysActivated"
+                    data-activation-value=""
+                    data-deactivation-type="neverDeactivate"
+                    data-deactivation-value=""
+                    data-form-name="Contact Us"
+                    data-height="660"
+                    data-layout-iframe-id="inline-M6Lp3X1YE2Yjh74wnD9b"
+                    data-form-id="M6Lp3X1YE2Yjh74wnD9b"
+                    title="Contact Us">
+                </iframe>
+                <script src="https://link.msgsndr.com/js/form_embed.js"></script>
 
                 <p class="text-slate-500 text-xs text-center mt-6 font-light">🔒 Your information stays private. No corporate marketing noise. Promise.</p>
             </div>

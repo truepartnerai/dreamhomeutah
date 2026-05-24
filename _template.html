@@ -170,7 +170,7 @@
             </div>
         </div>
 
-        <!-- Stacie's Realtor Insight (formerly Darin's Broker Insight) -->
+        <!-- Stacie's Note -->
         <div class="mt-10 bg-slate-50 rounded-2xl p-6 md:p-8 border-2 border-slate-200">
             <div class="flex items-start gap-4">
                 <div class="shrink-0 w-12 h-12 rounded-full overflow-hidden border-2 border-slate-300">
@@ -283,41 +283,20 @@
         </div>
     </section>
 
-    <!-- IDX SEARCH - Two-column layout to accommodate narrow IDX widget -->
+    <!-- IDX SEARCH - Wide single-column with new 960x300 widget -->
     <section class="max-w-6xl mx-auto px-6 lg:px-12 py-20 md:py-28">
-        <div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
-            <!-- Left column: marketing copy -->
-            <div class="md:col-span-7">
-                <p class="font-hand text-slate-600 text-3xl mb-2">browse listings</p>
-                <h2 class="font-display text-4xl md:text-5xl text-slate-900 leading-tight mb-6">
-                    Search <em>New Listings</em>
-                </h2>
-                <p class="text-slate-700 text-lg font-light leading-relaxed mb-6">
-                    Browse the latest active listings across Utah in real time. New properties hit the market every day — find yours before everyone else does.
-                </p>
-                <ul class="space-y-3 text-slate-700 font-light">
-                    <li class="flex items-start gap-3">
-                        <svg class="w-5 h-5 text-sky-600 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-                        <span>Filter by price, bedrooms, and area</span>
-                    </li>
-                    <li class="flex items-start gap-3">
-                        <svg class="w-5 h-5 text-sky-600 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-                        <span>Save favorites and get instant alerts</span>
-                    </li>
-                    <li class="flex items-start gap-3">
-                        <svg class="w-5 h-5 text-sky-600 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-                        <span>Real MLS data, updated continuously</span>
-                    </li>
-                    <li class="flex items-start gap-3">
-                        <svg class="w-5 h-5 text-sky-600 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-                        <span>One-click contact when something catches your eye</span>
-                    </li>
-                </ul>
-            </div>
-            <!-- Right column: IDX widget centered -->
-            <div class="md:col-span-5 flex justify-center">
-                <iframe style="width:280px; height:680px; border-radius: 12px; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);" src="https://stacierhodes.equityrealestateusa.com/embedsmall.php" allowtransparency="true" frameBorder="0"></iframe>
-            </div>
+        <div class="text-center mb-10">
+            <p class="font-hand text-slate-600 text-3xl mb-2">browse listings</p>
+            <h2 class="font-display text-4xl md:text-5xl text-slate-900 leading-tight mb-6">
+                Search <em>New Listings</em>
+            </h2>
+            <p class="text-slate-600 text-lg font-light max-w-2xl mx-auto">
+                Browse the latest active listings across Utah in real time. New properties hit the market every day — find yours before everyone else does.
+            </p>
+        </div>
+        <!-- Centered IDX widget with horizontal scroll wrapper for mobile -->
+        <div class="flex justify-center overflow-x-auto">
+            <iframe style="width: 960px; height: 300px; border-radius: 12px; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1); flex-shrink: 0;" src="https://stacierhodes.equityrealestateusa.com/wide.php" allowtransparency="true" frameBorder="0"></iframe>
         </div>
     </section>
 
@@ -419,7 +398,6 @@
                 <p class="text-slate-300 max-w-xl mx-auto font-light mt-6 text-lg">From your first call to your closing day — here's how it works.</p>
             </div>
 
-            <!-- 3-Step Track -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
                 <div class="bg-white text-slate-900 rounded-3xl p-8 relative shadow-2xl">
                     <div class="absolute -top-6 left-1/2 -translate-x-1/2 bg-sky-500 text-white font-display text-3xl font-bold w-14 h-14 rounded-full flex items-center justify-center shadow-lg">1</div>
@@ -455,7 +433,6 @@
                     <p class="text-slate-600 mt-3 max-w-md mx-auto font-light">Have a question or ready to start the conversation? Fill this out and we'll reach out personally — usually same day.</p>
                 </div>
 
-                <!-- GHL Embedded Contact Form -->
                 <iframe
                     src="https://api.leadconnectorhq.com/widget/form/M6Lp3X1YE2Yjh74wnD9b"
                     style="width:100%;min-height:660px;border:none;border-radius:7px"
@@ -490,8 +467,8 @@
                 </div>
                 <div class="flex flex-wrap justify-start md:justify-end items-center gap-8">
                     <img src="https://res.cloudinary.com/dhmzbmbgv/image/upload/dreamhomeutah/brand/equity-logo" alt="Equity Real Estate" class="h-12 w-auto object-contain" />
-                    <img src="https://res.cloudinary.com/dhmzbmbgv/image/upload/dreamhomeutah/brand/truepartner-logo" alt="TruePartner Home Loans" class="h-12 w-auto object-contain" />
-                    <img src="https://res.cloudinary.com/dhmzbmbgv/image/upload/dreamhomeutah/brand/equal-housing-lender" alt="Equal Housing Lender" class="h-7 w-auto object-contain opacity-80" />
+                    <img src="https://res.cloudinary.com/dhmzbmbgv/image/upload/dreamhomeutah/brand/truepartnerhomeloans-logo" alt="TruePartner Home Loans" class="h-12 w-auto object-contain" />
+                    <img src="https://www.nar.realtor/sites/default/files/downloadable/equal-housing-opportunity-logo-1200w.jpg" alt="Equal Housing Lender" class="h-10 w-auto object-contain opacity-90" />
                 </div>
             </div>
             <div class="pt-8 text-xs text-slate-500 space-y-2 leading-relaxed">
